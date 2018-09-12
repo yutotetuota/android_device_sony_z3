@@ -23,7 +23,7 @@ TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/cmhw
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := lineageos_shinano_leo_defconfig
+TARGET_KERNEL_CONFIG := shinano_leo_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 25
